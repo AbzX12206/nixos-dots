@@ -8,7 +8,7 @@
     vimAlias     = true;
     vimdiffAlias = true;
 
-    extraLuaConfig = ''
+    initLua = ''
       -- ─────────────────────────────────────────────
       --  Options
       -- ─────────────────────────────────────────────

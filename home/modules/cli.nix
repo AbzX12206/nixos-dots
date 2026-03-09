@@ -2,10 +2,10 @@
 
 {
   programs.eza = {
-    enable               = true;
-    icons                = true;  # bool — "auto" is not a valid type here
-    git                  = true;
-    enableFishIntegration = false; # aliases are defined manually in shell.nix
+    enable                = true;
+    icons                 = "auto";
+    git                   = true;
+    enableFishIntegration = false;
   };
 
   programs.bat = {
@@ -24,5 +24,6 @@
   programs.yazi = {
     enable                = true;
     enableFishIntegration = true;
+    shellWrapperName      = "y";
   };
 }
